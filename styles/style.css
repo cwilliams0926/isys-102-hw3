@@ -22,6 +22,7 @@ body {
 
 .top-navbar li {
     float: left;
+    border-radius: 5px;
 }
 
 .top-navbar a {
@@ -30,6 +31,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .top-navbar a:hover {
@@ -68,14 +70,14 @@ body {
 
 .leftcolumn {
     float: left;
-    height: 400px;
+    height: auto;
     width: 25%;
     background-color: #aaa8a8;
 }
 
 .rightcolumn {
     float: left;
-    height: 400px;
+    height: auto;
     width: 75%;
 }
 
@@ -83,6 +85,36 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    float: left;
+    width: 250px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: auto;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.title {
+    padding: 15px;
+    text-align: center;
 }
 
 .footer {

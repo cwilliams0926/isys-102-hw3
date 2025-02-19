@@ -40,11 +40,37 @@ body {
     background-color: #555;
 }
 
+.side-title {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+}
+
+.side-navbar {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e2e2e2;
+}
+
+.side-navbar a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.side-navbar a:hover {
+    background-color: #333;
+    color: white;
+}
+
 .leftcolumn {
     float: left;
     height: 400px;
     width: 25%;
-    background-color: lightgray;
+    background-color: #aaa8a8;
 }
 
 .rightcolumn {

@@ -1,0 +1,33 @@
+
+
+.header {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+}
+
+.leftcolumn {
+    float: left;
+    height: 400px;
+    width: 25%;
+    background-color: lightgray;
+}
+
+.rightcolumn {
+    float: left;
+    height: 400px;
+    width: 75%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 10px
+}
+

@@ -10,4 +10,4 @@ After that, I made a vertical navbar in the left column and added similarstyling
 
 # Lessons Learned:
 
-I learned that CSS is pretty fun to mess around with. I enjoyed slowly building different parts of the web page and seeing it become something I was happy with. I learned how to make better use of selectors in CSS as well as use the new CSS properties learned in class recently. 
+I learned that CSS is pretty fun to mess around with. I enjoyed slowly building different parts of the web page and seeing it become something I was happy with. I learned how to make better use of selectors in CSS as well as use the new CSS properties learned in class recently. On top of the actual website building stuff, I tried my best to make use of git and learn how to use it properly. I attempted to commit every notable change I made along the way and push when I was done. This is an important skill to learn because git and github are widely used skills in the development world.
